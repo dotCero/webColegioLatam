@@ -1,0 +1,64 @@
+<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-info">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="assets/img/TRANSPARENTE.png" alt="" style="width: 20%" class="d-inline-block align-top">
+            <!--COLEGIO LATAM-->
+        </a>
+
+        <button class="navbar-toggler navbar-toggler-right pull-right" type="button" data-toggle="collapse"
+                data-target="#navbar-success" aria-controls="navbar-success" aria-expanded="true"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-bar"></span>
+            <span class="navbar-toggler-bar"></span>
+            <span class="navbar-toggler-bar"></span>
+        </button>
+
+        <div class="collapse navbar-collapse nav-blue" id="navbar-success" style="">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#" data-toggle="modal" data-target="#inscription"><strong>Inscríbete</strong></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="dropdownMenuButton" href="#" role="button" aria-haspopup="true" aria-expanded="false"><strong>Cursos</strong></a>
+                    <div class="dropdown-menu dropdown-info" aria-labelledby="dropdownMenuButton">
+                        <p class="dropdown-header">Cursos Disponibles</p>
+                        <a class="dropdown-item" href="#">Programación</a>
+                        <a class="dropdown-item" href="#">Matemáticas</a>
+                        <a class="dropdown-item" href="#">Mecánica</a>
+                        <a class="dropdown-item" href="#">Medio Ambiente</a>
+                        <a class="dropdown-item" href="#">Ciudadanía</a>
+                        <a class="dropdown-item" href="#">Finanzas</a>
+                        <a class="dropdown-item" href="#">Desarrollo Social</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><strong>Programas</strong></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" data-toggle="modal" data-target="#contact"><strong>Contáctanos</strong></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<div class="modal fade" tabindex="-1" role="dialog" id="inscription">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body section-body-blue">
+                <app-inscription></app-inscription>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" tabindex="-1" role="dialog" id="contact">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-body section-body-blue">
+                <app-contact></app-contact>
+            </div>
+        </div>
+    </div>
+</div>
